@@ -1,0 +1,10 @@
+/Users/qianli/Documents/VsProjects/allJunkies/uow-generic/bin/Debug/netcoreapp2.0/uow-generic.deps.json
+/Users/qianli/Documents/VsProjects/allJunkies/uow-generic/bin/Debug/netcoreapp2.0/uow-generic.runtimeconfig.json
+/Users/qianli/Documents/VsProjects/allJunkies/uow-generic/bin/Debug/netcoreapp2.0/uow-generic.runtimeconfig.dev.json
+/Users/qianli/Documents/VsProjects/allJunkies/uow-generic/bin/Debug/netcoreapp2.0/uow-generic.dll
+/Users/qianli/Documents/VsProjects/allJunkies/uow-generic/bin/Debug/netcoreapp2.0/uow-generic.pdb
+/Users/qianli/Documents/VsProjects/allJunkies/uow-generic/obj/Debug/netcoreapp2.0/uow-generic.csproj.CoreCompileInputs.cache
+/Users/qianli/Documents/VsProjects/allJunkies/uow-generic/obj/Debug/netcoreapp2.0/uow-generic.AssemblyInfoInputs.cache
+/Users/qianli/Documents/VsProjects/allJunkies/uow-generic/obj/Debug/netcoreapp2.0/uow-generic.AssemblyInfo.cs
+/Users/qianli/Documents/VsProjects/allJunkies/uow-generic/obj/Debug/netcoreapp2.0/uow-generic.dll
+/Users/qianli/Documents/VsProjects/allJunkies/uow-generic/obj/Debug/netcoreapp2.0/uow-generic.pdb
