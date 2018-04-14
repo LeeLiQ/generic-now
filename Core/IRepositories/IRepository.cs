@@ -2,15 +2,14 @@ using System.Collections.Generic;
 
 namespace uow_generic.Core.IRepositories
 {
-    public interface IRepository<TEntity, TDto>
+    public interface IRepository<TEntity>
         where TEntity : class
-        where TDto : class
     {
-        TDto GetById(int id);
+        TEntity GetById(int id);
 
-        IEnumerable<TDto> GetAll();
+        IEnumerable<TEntity> GetAll();
 
-        TEntity Insert(TDto entity);
+        TEntity Insert(TEntity entity);
 
         TEntity Update(TEntity entity);
 

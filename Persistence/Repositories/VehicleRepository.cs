@@ -4,7 +4,7 @@ using uow_generic.DataTransferObjects;
 
 namespace uow_generic.Persistence.Repositories
 {
-    public class VehicleRepository : BaseRespository<Vehicle, VehicleDto>, IVehicleRepository
+    public class VehicleRepository : BaseRespository<Vehicle>, IVehicleRepository
     {
         public Vehicle GetByVin(string vinNumber)
         {

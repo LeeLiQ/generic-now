@@ -1,26 +1,28 @@
-using uow_generic.Core.IRepositories;
+using uow_generic.Services.Interfaces;
+using System.Collections.Generic;
 
-namespace uow_generic.Persistence.Repositories
+namespace uow_generic.Services.ServiceImplementations
 {
-    public class BaseRespository<TEntity> : IRepository<TEntity>
+    public class BaseService<TEntity, TDto> : IService<TEntity, TDto>
         where TEntity : class
+        where TDto : class
     {
         public TEntity Delete(int id)
         {
             throw new System.NotImplementedException();
         }
 
-        public System.Collections.Generic.IEnumerable<TEntity> GetAll()
+        public IEnumerable<TDto> GetAll()
         {
             throw new System.NotImplementedException();
         }
 
-        public TEntity GetById(int id)
+        public TDto GetById(int id)
         {
             throw new System.NotImplementedException();
         }
 
-        public TEntity Insert(TEntity entity)
+        public TEntity Insert(TDto entity)
         {
             throw new System.NotImplementedException();
         }

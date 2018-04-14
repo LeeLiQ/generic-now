@@ -11,5 +11,7 @@ namespace uow_generic.Core.Domains
         public string Vin { get; set; }
 
         public bool IsRegistered { get; set; }
+
+        public string NickName { get; set; }
     }
 }
