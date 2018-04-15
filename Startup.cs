@@ -11,6 +11,10 @@ using Microsoft.Extensions.Options;
 using AutoMapper;
 using uow_generic.Services.Interfaces;
 using uow_generic.Services.ServiceImplementations;
+using uow_generic.Persistence.Repositories;
+using uow_generic.Core.IRepositories;
+using uow_generic.Core;
+using uow_generic.Persistence;
 
 namespace uow_generic
 {
@@ -29,7 +33,9 @@ namespace uow_generic
             services.AddAutoMapper();
             services.AddMvc();
 
+            services.AddTransient<IUnitOfWork, UnitOfWork>();
             services.AddTransient<IVehicleService, VehicleService>();
+            services.AddTransient<IVehicleRepository, VehicleRepository>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

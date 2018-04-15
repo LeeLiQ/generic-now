@@ -6,6 +6,11 @@ namespace uow_generic.Persistence.Repositories
 {
     public class VehicleRepository : BaseRespository<Vehicle>, IVehicleRepository
     {
+        public VehicleRepository()
+        {
+
+        }
+
         public Vehicle GetByVin(string vinNumber)
         {
             throw new System.NotImplementedException();

@@ -1,11 +1,12 @@
+using System;
 using uow_generic.Core.IRepositories;
 
 namespace uow_generic.Core
 {
-    public interface IUnitOfWork
+    public interface IUnitOfWork : IDisposable
     {
-        IVehicleRepository _vehicleRepository { get; }
-
         void Complete();
+
+        dynamic GetRepository<T>() where T : class;
     }
 }
