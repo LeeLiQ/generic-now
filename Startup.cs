@@ -9,6 +9,8 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 using AutoMapper;
+using uow_generic.Services.Interfaces;
+using uow_generic.Services.ServiceImplementations;
 
 namespace uow_generic
 {
@@ -26,6 +28,8 @@ namespace uow_generic
         {
             services.AddAutoMapper();
             services.AddMvc();
+
+            services.AddTransient<IVehicleService, VehicleService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
