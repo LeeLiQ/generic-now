@@ -13,7 +13,7 @@ namespace uow_generic.Persistence
 
         public UnitOfWork()
         {
-            _uow.Add(typeof(Vehicle), new BaseRespository<Vehicle>());
+            _uow.Add(typeof(Vehicle), new VehicleRepository());
         }
 
         public void Complete()

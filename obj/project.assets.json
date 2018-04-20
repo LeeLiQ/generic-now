@@ -12635,28 +12635,34 @@
     ]
   },
   "packageFolders": {
-    "/Users/qianli/.nuget/packages/": {},
-    "/usr/local/share/dotnet/sdk/NuGetFallbackFolder": {}
+    "C:\\Users\\qiali\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/qianli/Documents/VsProjects/allJunkies/uow-generic/uow-generic.csproj",
+      "projectUniqueName": "C:\\Users\\qiali\\Documents\\Demos\\generic-now\\uow-generic.csproj",
       "projectName": "uow-generic",
-      "projectPath": "/Users/qianli/Documents/VsProjects/allJunkies/uow-generic/uow-generic.csproj",
-      "packagesPath": "/Users/qianli/.nuget/packages/",
-      "outputPath": "/Users/qianli/Documents/VsProjects/allJunkies/uow-generic/obj/",
+      "projectPath": "C:\\Users\\qiali\\Documents\\Demos\\generic-now\\uow-generic.csproj",
+      "packagesPath": "C:\\Users\\qiali\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\qiali\\Documents\\Demos\\generic-now\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\",
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "/Users/qianli/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\qiali\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.Fallback.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "http://nuget.teslamotors.com/warp/nuget/": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {

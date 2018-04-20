@@ -8,3 +8,14 @@
 /Users/qianli/Documents/VsProjects/allJunkies/uow-generic/obj/Debug/netcoreapp2.0/uow-generic.AssemblyInfo.cs
 /Users/qianli/Documents/VsProjects/allJunkies/uow-generic/obj/Debug/netcoreapp2.0/uow-generic.dll
 /Users/qianli/Documents/VsProjects/allJunkies/uow-generic/obj/Debug/netcoreapp2.0/uow-generic.pdb
+C:\Users\qiali\Documents\Demos\generic-now\bin\Debug\netcoreapp2.0\uow-generic.deps.json
+C:\Users\qiali\Documents\Demos\generic-now\bin\Debug\netcoreapp2.0\uow-generic.runtimeconfig.json
+C:\Users\qiali\Documents\Demos\generic-now\bin\Debug\netcoreapp2.0\uow-generic.runtimeconfig.dev.json
+C:\Users\qiali\Documents\Demos\generic-now\bin\Debug\netcoreapp2.0\uow-generic.dll
+C:\Users\qiali\Documents\Demos\generic-now\bin\Debug\netcoreapp2.0\uow-generic.pdb
+C:\Users\qiali\Documents\Demos\generic-now\obj\Debug\netcoreapp2.0\uow-generic.csproj.CoreCompileInputs.cache
+C:\Users\qiali\Documents\Demos\generic-now\obj\Debug\netcoreapp2.0\uow-generic.AssemblyInfoInputs.cache
+C:\Users\qiali\Documents\Demos\generic-now\obj\Debug\netcoreapp2.0\uow-generic.AssemblyInfo.cs
+C:\Users\qiali\Documents\Demos\generic-now\obj\Debug\netcoreapp2.0\uow-generic.dll
+C:\Users\qiali\Documents\Demos\generic-now\obj\Debug\netcoreapp2.0\uow-generic.pdb
+C:\Users\qiali\Documents\Demos\generic-now\obj\Debug\netcoreapp2.0\uow-generic.csprojResolveAssemblyReference.cache
